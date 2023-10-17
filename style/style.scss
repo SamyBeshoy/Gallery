@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    h2 {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    .gallery {
+        margin: 30;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        .imgs {
+            width: 15em;
+        }
+    } 
+    footer {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+}
+/*media*/
+@media (max-width:767px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media (max-width:565px) {
+    html {
+        font-size: 7px;
+    }
+}
+@media (max-width:262px) {
+    html {
+        font-size: 5px;
+    }
+}
