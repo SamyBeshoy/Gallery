@@ -1,6 +1,6 @@
 let gallery = document.querySelector(".gallery");
 // looping operation
-for (let i = 70; i > 0; i--) {
+for (let i = 71; i > 0; i--) {
     let img = document.createElement("img");
     img.src = `wall_paper/${i}.jpg`;
     gallery.append(img);
